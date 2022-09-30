@@ -8,11 +8,18 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
+.container {
+    border: 6px outset red;
+    /* border-radius: 50%; */
+    /* width: 50%; */
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
 }
 
 /* header {
@@ -23,6 +30,7 @@ main {
 
     background-color: skyblue;
     font-size: 2rem;
+    min-height: 100vh;
 }
 
 p {
@@ -30,9 +38,19 @@ p {
     /* root size font */
     /* font-size: 2em;   */
     /* parent size font */
-    width: 40ch; /* 40 characters in line */
+     /* 40 characters in line */
 }
 
+.circle {
+    margin: 3rem auto;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    border-radius: 50%;
+}
 
 
 /* html {
