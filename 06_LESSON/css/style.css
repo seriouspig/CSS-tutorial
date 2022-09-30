@@ -50,3 +50,26 @@ p {
 
 
 }
+
+a {
+    text-decoration: underline;
+    text-decoration: none;
+
+    cursor: not-allowed;
+    cursor: pointer;
+
+    color: blue;
+}
+
+a:visited {
+    color: saddlebrown;
+}
+
+a:hover, a:focus {
+    color: salmon;
+    opacity: 0.6;
+}
+
+a:active {
+    color: red;
+}
