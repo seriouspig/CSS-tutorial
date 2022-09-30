@@ -73,3 +73,41 @@ a:hover, a:focus {
 a:active {
     color: red;
 }
+
+ol {
+    list-style-type: lower-alpha;
+    list-style-type: georgian;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: upper-roman;
+    list-style-type: lower-alpha;
+    /* list-style-type: none; */
+    padding: 0%;
+}
+
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+    /* list-style-image: url("https://static9.depositphotos.com/1029663/1206/i/600/depositphotos_12065279-stock-photo-green-check-mark-symbol.jpg"); */
+}
+
+/* ul li:nth-child(2) {
+    color: red;
+} */
+
+ul li:nth-child(odd) {
+    color: red;
+}
+
+ul ::marker {
+    color: black;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5 >> ";
+}
+
